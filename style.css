@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, white, pink);
+}
+
+img {
+    width: 600px;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: #E3F2FD;
+}
+
+.menu {
+    position: fixed;
+    list-style: none;
+    font-family: sans-serif;
+    top: 10px;
+    margin-top: 0px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
